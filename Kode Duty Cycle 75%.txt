@@ -1,0 +1,11 @@
+const int pwmPin = 9; // Pin PWM, bisa diganti sesuai kebutuhan
+
+void setup() {
+  // Atur pin sebagai output
+  pinMode(pwmPin, OUTPUT);
+}
+
+void loop() {
+  // Nilai PWM 75% dari rentang 0-255
+  analogWrite(pwmPin, 191); // 75% dari 255 adalah 64
+}
